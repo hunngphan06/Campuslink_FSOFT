@@ -9,7 +9,7 @@ public class DBConnection {
     private static final Logger logger = Logger.getLogger(DBConnection.class.getName());
     private static final String URL = "jdbc:mysql://localhost:3306/demau";
     private static final String USER = "root";
-    private static final String PASSWORD = "Anhvu02052004@";
+    private static final String PASSWORD = "123456";
 
     public static Connection getConnection() throws SQLException {
         try {
